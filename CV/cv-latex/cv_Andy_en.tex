@@ -1,0 +1,123 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.2 (25/3/16)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[utf8]{inputenc}             % sur MacBook Air (pour mettre en utf-8)
+\usepackage[scale=0.75,top=2cm]{geometry} % Réduit les marges et met l'en-tête à 2cm %
+\setlength{\hintscolumnwidth}{3.5cm} % Uncomment to change the width of the dates column
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Andy Ho-Yin} % Your first name
+\familyname{Kwok} % Your last name
+
+
+%\title{Curriculum Vitae}
+\address{14 route du curé Ballan}{86130 St Georges les Baillargeaux}
+\email{andy.h.kwok@protonmail.com}
+\phone{+33 6 64925888}
+\homepage{github.com/kwokandy}{github.com/kwokandy}
+\photo[70pt][0.4pt]{pictures/photo-andy-latex} 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+\vspace*{-5mm} %Supprime de 5mm après le summary
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experiences}
+
+%\subsection{Vocational}
+
+
+
+\cventry{Novembre 2015 - Présent}{Developer and first line support}{\textsc{Pictav Informatique}}{Poitiers}{}{Reporting development with SSRS and first line of support with Pictav line of softwares\newline{}}
+
+\cventry{October 2014 - October 2015}{Co-Founder}{\textsc{LePetitFabLabdeParis.fr}}{Paris 11ème}{}{Le Petit FabLab de Paris is a mix between tech shop , hackerspace and teaching facility. It breeds innovation and boost people skills in IoT (coding or design to name a few)\newline{}}
+
+\cventry{March 2014 - October 2014}{Data analyst}{\textsc{SLPV}}{Paris}{}{Setup an automatized data extraction program with AWK and Sed using Eurostat's data. The data were then used on a PLS regression done with SAS , to forecast GDP growth \newline{}}
+
+\cventry{September 2012 - October 2013}{Associate degree in Statistics}{\textsc{Paris Descartes}}{Paris}{}{Degree done in a year instead of two\newline{}}
+
+\cventry{September 2009 - July 2012}{Operational analyst (senior)}{\textsc{Epsilon}}{London}{Epsilon is an email marketing company}{Technical support of DREAMAIL and DREAM (emailing softwares) and customer care with major blue chips / PLC companies \newline{}}
+
+\cventry{January 2007 - July 2009}{Analyst}{\textsc{Oxfam UK}}{Oxford}{Oxfam is a global NGO}{Post implementation support for internal stakeholders of Ciber's CRM Ascent + project management over compatibility of Ascent and Lotus email server  \newline{}}
+
+\cventry{May 2005 - January 2007}{Project manager}{\textsc{VeePee}}{Paris}{VeePee is a software integrator}{Apache - Postfix - Sendmail implementation and post-implementation support for various major blue chips / PLC companies\newline{}}
+
+\cventry{September 2000 - April 2005}{DBA Oracle}{\textsc{Sopra, Cétélem and FIS}}{Paris}{}{Database admin and sys admin tasks \newline{}\newline{}\newline{}\newline{}\newline{}}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER AND PEOPLE SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Technical skills}
+\cvcomputer{Languages:}{SQL \& T-SQL , Shell , Python , HTML , Awk , Sed , SAS}{Tools:}{Visual Studio , Excel , Vim , Git , \LaTeX, Word}
+\cvcomputer{Databases:}{SQL Server , Oracle , PostgresSQL, MySQL}{OS:}{GNU/Linux , Windows , MacOS ,  Unixes}
+\cvcomputer{Reporting:}{SSRS reports , Crystal reports}{Protocols:}{TCP/IP, SMTP, SSHD}
+\cvcomputer{Cloud:}{Learning AWS (EC2,RDS)}{}{}
+
+\section{Soft skills}
+\cvitem{Management}{Team technical mentoring, remote work, multicultural work environment, customers facing}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Diplomas}
+
+\cventry{2013}{DUT Statistiques (STID)}{\textsc{Paris Descartes}}{Paris}{}{}  % Arguments not required can be left empty
+\cventry{2010}{PRINCE2}{}{London}{PRINCE2 first part}{(PRINCE2 is a project management methodology)}  
+\cventry{2004}{Bachelor in Computer Science(DEST)}{\textsc{CNAM}}{Paris}{}{}
+
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\cvcomputer{English:}{Bilingual}{French:}{Mother tongue}
+\cvcomputer{Cantonese:}{Mother tongue}{Spanish:}{Limited working proficiency}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Divers}
+\renewcommand{\listitemsymbol}{} % Changes the symbol used for lists
+
+\cvitem{}{Avid runner , I finished my second marathon in May 2016. Coming to Poitiers for my girlfriend , I've built this initiative \textsc{Poitiers Beginners Coders} -> \href{http://www.meetup.com/fr-FR/Poitiers-Beginners-Coders/}{Click here to go to the website}\newline{}}
+
+
+\end{document}
